@@ -1,0 +1,25 @@
+"""
+INPUT:::
+"""
+print("Test 1: Collapsing assembly:::")
+body_1 = np.array([[25, 35, 2], [66, 42, 10]])
+contacts_1 = np.array([[1, 2, 60, 60, pi, 0.5], [1, 0, 0, 0, pi/2, 0.5],
+                        [2, 0, 72, 0, pi/2, 0.5], [2, 0, 60, 0, pi/2, 0.5]])
+assembly_stability(body_1, contacts_1)
+
+print("\nTest 2: Assembly that can continue to stand:::")
+body_2 = np.array([[25, 35, 2], [66, 42, 5]])
+contacts_2 = np.array([[1, 2, 60, 60, pi, 0.5], [1, 0, 0, 0, pi/2, 0.1],
+                        [2, 0, 72, 0, pi/2, 0.5], [2, 0, 60, 0, pi/2, 0.5]])
+assembly_stability(body_2, contacts_2)
+
+"""
+OUTPUT:::
+"""
+Test 1: Collapsing assembly:::
+The Assembly has achieved Stability!
+
+Test 2: Assembly that can continue to stand:::
+The Assembly has not achieved Stability under current parameters
+
+Process finished with exit code 0

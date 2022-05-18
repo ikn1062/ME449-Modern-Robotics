@@ -1,0 +1,19 @@
+### INPUT:::
+
+contact_case_1 = np.array([[1, 0, pi/2], [2, 0, pi/2], [3, 3, pi], [0, 6, pi/2]])
+contact_case_2 = np.array([[1, 0, pi/2], [2, 0, pi/2], [3, 3, pi], [0, 6, -pi/6]])
+print("contact_case_1: ")
+print(form_closure(contact_case_1))
+print("\ncontact_case_2: ")
+print(form_closure(contact_case_2))
+
+
+### OUTPUT:::
+
+contact_case_1: 
+k values are not strictly positive
+None
+
+contact_case_2: 
+Form Closure
+[2.3713333  3.78033391 3.31066704 3.36175094]
