@@ -1,6 +1,4 @@
-Modern Robotics, Course 4: Robot Motion Planning and Control
-Peer-graded Assignment: Sampling-Based Planning
-IKN 2020
+# Modern Robotics, Course 4: Robot Motion Planning and Control
 
 For this assignment, I created an RRT planner using Python (in "code" directory).
 
