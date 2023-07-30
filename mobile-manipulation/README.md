@@ -6,10 +6,6 @@ The detailed version of the software can be accessed through code.py or code.txt
 mobile_manipulation with additional helper functions including, but not limited to, NextState, TrajectoryGeneration, 
 and FeedbackControl. 
 
-In regards to the solution method used to create the mobile_manipulation function, no other additional methods were used,
-and the function was purely based off of the description of the code in the milestones provided in the Mobile Manipulation
-Capstone Coursera course. Moreover, singularity avoidance and joint enhancements were NOT implemented in this version.
-
 
 ## Main function:::
 
